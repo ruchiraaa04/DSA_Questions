@@ -6,6 +6,7 @@ def stringMatching(words):
                 result.append(w1)
                 break  # No need to check further if `w1` is already a substring
     return result
-    
+
+#example
 words=["mass","as","hero","superhero"]
 print(stringMatching(words))

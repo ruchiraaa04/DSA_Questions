@@ -13,5 +13,6 @@ def countPrefixSuffixPairs(words):
                 count += 1
     return count
 
+#example
 words = ["a","aba","ababa","aa"]
 print(countPrefixSuffixPairs(words))
